@@ -9,6 +9,10 @@ use think\Db;
 
 use think\Request;
 
+/**
+ * 杨宇
+ * ClientInfo封装
+ */
 class ClientInfo extends Model{
     public function getLang() {
         $Lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 4);
